@@ -200,3 +200,33 @@ a.group {
     color: hsl(228, 45%, 44%); 
     font-size: inherit;
 }
+
+@media (max-width: 500px) {
+    body {
+        height: auto;
+    }
+
+    .header {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .container {
+        width: 100vw;
+        height: auto;
+        padding: 15px;
+    }
+
+    .photo {
+        position: static;
+        margin-right: 1.25rem;
+    }
+
+    .message {
+        margin-right: 1rem;
+    }
+
+    .attribution { 
+        display: none;
+    }
+}
